@@ -6,16 +6,16 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import PhoneIcon from "@mui/icons-material/Phone";
-
+import { motion } from "motion/react";
 
 const Contact = () => {
   useEffect(() => {
-      AOS.init({
-        duration: 1000,
-        easing: "ease-in-out",
-        offset: 100,
-      });
-    }, []);
+    AOS.init({
+      duration: 1000,
+      easing: "ease-in-out",
+      offset: 100,
+    });
+  }, []);
   return (
     <div className="flex flex-col gap-10 ">
       <div className="">
@@ -33,28 +33,56 @@ const Contact = () => {
           something amazing together!
         </p>
       </div>
-      <div className="flex flex-row items-center xs:items-start justify-center gap-5 xs:flex-row text-lighter_gray">
-        <div className="flex flex-col gap-2">
-          <a href="" className="hover:text-teal">
+      <div className="flex flex-row items-center xs:items-start justify-center gap-10 xs:flex-row text-lighter_gray text-lg">
+        <div className="flex flex-col gap-3">
+          <motion.a
+            whileHover={{ scale: 1.05 }}
+            href="mailto:ashumekit502@gmail.com"
+            className="hover:text-teal border border-teal p-2 rounded-lg text-center"
+          >
             <EmailIcon /> Email
-          </a>
-          <a href="" className="hover:text-teal">
+          </motion.a>
+          <motion.a
+            whileHover={{ scale: 1.05 }}
+            href="https://github.com/Ashenafimekit"
+            target="_blank"
+            className="hover:text-teal border border-teal p-2 rounded-lg text-center"
+          >
             <GitHubIcon /> GitHub
-          </a>
-          <a href="" className="hover:text-teal">
+          </motion.a>
+          <motion.a
+            whileHover={{ scale: 1.05 }}
+            href="https://linkedin.com/in/ashenafi-mekit"
+            target="_blank"
+            className="hover:text-teal border border-teal p-2 rounded-lg text-center"
+          >
             <LinkedInIcon /> LinkedIn
-          </a>
+          </motion.a>
         </div>
-        <div className="flex flex-col gap-2">
-          <a href="" className="hover:text-teal">
+        <div className="flex flex-col gap-3">
+          <motion.a
+            whileHover={{ scale: 1.05 }}
+            href="https://www.instagram.com/ashu_mekit/"
+            target="_blank"
+            className="hover:text-teal border border-teal p-2 rounded-lg text-center"
+          >
             <InstagramIcon /> Instagram
-          </a>
-          <a href="" className="hover:text-teal">
+          </motion.a>
+          <motion.a
+            whileHover={{ scale: 1.05 }}
+            href="https://t.me/Ashe_m16"
+            target="_blank"
+            className="hover:text-teal border border-teal p-2 rounded-lg text-center"
+          >
             <TelegramIcon /> Telegram
-          </a>
-          <a href="tel:+251942240594" className="hover:text-teal">
+          </motion.a>
+          <motion.a
+            whileHover={{ scale: 1.05 }}
+            href="tel:+251942240594"
+            className="hover:text-teal border border-teal p-2 rounded-lg text-center"
+          >
             <PhoneIcon /> +251942240594
-          </a>
+          </motion.a>
         </div>
       </div>
     </div>
