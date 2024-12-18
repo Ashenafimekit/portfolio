@@ -14,15 +14,15 @@ const Project = () => {
       });
     }, []);
   return (
-    <div  className="flex flex-col gap-14 px-10 py-5 ">
-      <div className="px-40">
-        <h1 className="text-text_color text-2xl text-">
+    <div  className="flex flex-col gap-14 py-5">
+      <div className="">
+        <h1 className="text-text_color text-2xl font-extrabold">
           <span className="text-teal">02. </span>Project
         </h1>
       </div>
       <div className="flex flex-col gap-8 justify-center items-center w-full ">
-        <div data-aos='fade-bottom' className="flex flex-col sm:flex-row gap-20 items-center justify-center">
-          <div className="flex flex-col gap-1 items- justify-center border border-teal rounded-lg shadow-2xl w-3/4 md:w-1/3 ">
+        <div data-aos='fade-bottom' className="flex flex-col sm:flex-row gap-10 lg:gap-20 items-center justify-center">
+          <div className="flex flex-col gap-1 items- justify-center border border-teal rounded-lg shadow-2xl w-full xs:w-3/4 md:w-4/5 ">
             <div className="h-1/2 ">
               <img
                 src={placeholer}
@@ -55,7 +55,7 @@ const Project = () => {
             </div>
           </div>
 
-          <div className="flex flex-col gap-1 items- justify-center border border-teal rounded-lg shadow-2xl w-3/4 md:w-1/3 ">
+          <div className="flex flex-col gap-1 items- justify-center border border-teal rounded-lg shadow-2xl w-full xs:w-3/4 md:w-4/5 ">
             <div className="h-1/2 ">
               <img
                 src={placeholer}
@@ -89,7 +89,7 @@ const Project = () => {
           </div>
         </div>
         <div data-aos='fade-bottom' className="flex flex-col sm:flex-row gap-20 items-center justify-center">
-        <div className="flex flex-col gap-1 items- justify-center border border-teal rounded-lg shadow-2xl w-3/4 md:w-1/3 ">
+        <div className="flex flex-col gap-1 items- justify-center border border-teal rounded-lg shadow-2xl w-full xs:w-3/4 md:w-4/5 ">
           <div className="h-1/2 ">
             <img
               src={placeholer}
@@ -118,7 +118,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-1 items- justify-center border border-teal rounded-lg shadow-2xl w-3/4 md:w-1/3 ">
+        <div className="flex flex-col gap-1 items- justify-center border border-teal rounded-lg shadow-2xl w-full xs:w-3/4 md:w-4/5 ">
           <div className="h-1/2 ">
             <img
               src={placeholer}

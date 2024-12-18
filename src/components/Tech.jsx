@@ -12,10 +12,10 @@ const Tech = () => {
   }, []);
 
   return (
-    <div className="flex flex-col gap-10 px-6 md:px-12 lg:px-20">
+    <div className="flex flex-col gap-10 ">
       {/* Header Section */}
       <div>
-        <h1 className="text-text_color text-2xl font-bold px-40">
+        <h1 className="text-text_color text-2xl font-extrabold">
           <span className="text-teal">03. </span>Skills
         </h1>
       </div>
@@ -23,22 +23,18 @@ const Tech = () => {
       {/* Skills Section */}
       <div
         data-aos="fade-bottom"
-        className="flex flex-col md:flex-row items-start md:items-center gap-8 md:gap-14 pl-40"
+        className="flex flex-row items-start md:items-center gap-8 md:gap-14 "
       >
         {/* Vertical Divider */}
         <div className="hidden md:block w-[1px] h-auto bg-lighter_gray"></div>
 
         {/* Skill Columns */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-lighter_gray">
+        <div className="grid grid-cols-4 gap-1 p-5  sm:gap-8 text-lighter_gray">
           {/* Column 1 */}
           <div>
             <h1 className="flex items-center gap-2">
               <ArrowRightIcon sx={{ color: "#00b3a4" }} />
-              HTML
-            </h1>
-            <h1 className="flex items-center gap-2">
-              <ArrowRightIcon sx={{ color: "#00b3a4" }} />
-              CSS
+              WordPress
             </h1>
             <h1 className="flex items-center gap-2">
               <ArrowRightIcon sx={{ color: "#00b3a4" }} />
@@ -88,10 +84,6 @@ const Tech = () => {
 
           {/* Column 4 */}
           <div>
-            <h1 className="flex items-center gap-2">
-              <ArrowRightIcon sx={{ color: "#00b3a4" }} />
-              WordPress
-            </h1>
             <h1 className="flex items-center gap-2">
               <ArrowRightIcon sx={{ color: "#00b3a4" }} />
               Git

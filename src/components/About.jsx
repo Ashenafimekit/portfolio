@@ -10,9 +10,9 @@ const About = () => {
     });
   }, []);
   return (
-    <div className=" flex flex-col gap-14 px-10 py-5">
-      <div className="px-40">
-        <h1 className="text-text_color text-2xl text-start font-bold">
+    <div className=" flex flex-col gap-14 px-10 ">
+      <div className="">
+        <h1 className="text-text_color text-2xl text-start font-extrabold">
           <span className="text-teal">01. </span>About Me
         </h1>
       </div>

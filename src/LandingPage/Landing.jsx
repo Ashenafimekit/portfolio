@@ -13,7 +13,7 @@ const Landing = () => {
     <div className="text-white bg-main flex flex-col gap-10">
       <Header />
       <Hero />
-      <div className="flex flex-col gap-40 pt-40">
+      <div className="flex flex-col px-5 sm:px-20 md:px-40 lg:px-60 gap-40 py-40 border-b">
         <Element name="about">
           <About />
         </Element>
