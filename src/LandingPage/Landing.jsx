@@ -12,7 +12,9 @@ const Landing = () => {
   return (
     <div className="text-white bg-main flex flex-col gap-10">
       <Header />
-      <Hero />
+      <Element name="hero">
+        <Hero />
+      </Element>
       <div className="flex flex-col px-5 sm:px-20 md:px-32 lg:px-60 gap-40 py-40 border-b">
         <Element name="about">
           <About />
