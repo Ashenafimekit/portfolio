@@ -16,7 +16,7 @@ const Header = () => {
   return (
     <div className="flex flex-row gap-10 items-center justify-between sm:justify-evenly px-10 sm:px-0 py-5 bg-main opacity-95 sticky top-0 z-50">
       <div className="flex flex-row">
-        <h1 className="font-bold text-lg  text-gray-300 border border-teal rounded-full p-3 hover:animate-pulse">
+        <h1 className="font-bold text-lg  text-gray-300 border border-teal rounded-full p-3 hover:animate-pulse cursor-pointer">
           <Link to='hero' smooth={true} duration={500}>AM</Link>
         </h1>
       </div>
