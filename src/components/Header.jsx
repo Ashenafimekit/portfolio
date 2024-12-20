@@ -34,7 +34,7 @@ const Header = () => {
         </h1>
         <h1 className="header cursor-pointer text-sm hover:text-lighter_gray ">
           <Link to="project" smooth={true} duration={500}>
-          <span className="text-teal">0.2 </span> PROJECT
+          <span className="text-teal">02. </span> PROJECT
           </Link>
           <span></span>
         </h1>

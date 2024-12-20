@@ -29,69 +29,69 @@ const Tech = () => {
         <div className="hidden md:block w-[1px] h-auto bg-lighter_gray"></div>
 
         {/* Skill Columns */}
-        <div className="grid grid-cols-4 gap-1 p-5  sm:gap-8 text-lighter_gray">
-          {/* Column 1 */}
-          <div>
-            <h1 className="flex items-center gap-2">
-              <ArrowRightIcon sx={{ color: "#00b3a4" }} />
-              WordPress
-            </h1>
-            <h1 className="flex items-center gap-2">
-              <ArrowRightIcon sx={{ color: "#00b3a4" }} />
-              React
-            </h1>
-            <h1 className="flex items-center gap-2">
-              <ArrowRightIcon sx={{ color: "#00b3a4" }} />
-              Tailwind
-            </h1>
+        <div className="flex flex-row  gap-1 p-5 sm:gap-8 text-lighter_gray ">
+          <div className="flex flex-col sm:flex-row ">
+            <div>
+              <h1 className="flex items-center gap-2">
+                <ArrowRightIcon sx={{ color: "#00b3a4" }} />
+                WordPress
+              </h1>
+              <h1 className="flex items-center gap-2">
+                <ArrowRightIcon sx={{ color: "#00b3a4" }} />
+                React
+              </h1>
+              <h1 className="flex items-center gap-2">
+                <ArrowRightIcon sx={{ color: "#00b3a4" }} />
+                Tailwind
+              </h1>
+            </div>
+
+            <div>
+              <h1 className="flex items-center gap-2">
+                <ArrowRightIcon sx={{ color: "#00b3a4" }} />
+                Node.js
+              </h1>
+              <h1 className="flex items-center gap-2">
+                <ArrowRightIcon sx={{ color: "#00b3a4" }} />
+                Express
+              </h1>
+              <h1 className="flex items-center gap-2">
+                <ArrowRightIcon sx={{ color: "#00b3a4" }} />
+                MongoDB
+              </h1>
+            </div>
           </div>
 
-          {/* Column 2 */}
-          <div>
-            <h1 className="flex items-center gap-2">
-              <ArrowRightIcon sx={{ color: "#00b3a4" }} />
-              Node.js
-            </h1>
-            <h1 className="flex items-center gap-2">
-              <ArrowRightIcon sx={{ color: "#00b3a4" }} />
-              Express
-            </h1>
-            <h1 className="flex items-center gap-2">
-              <ArrowRightIcon sx={{ color: "#00b3a4" }} />
-              MongoDB
-            </h1>
-          </div>
+          <div className="flex flex-col sm:flex-row ">
+            <div>
+              <h1 className="flex items-center gap-2">
+                <ArrowRightIcon sx={{ color: "#00b3a4" }} />
+                C++
+              </h1>
+              <h1 className="flex items-center gap-2">
+                <ArrowRightIcon sx={{ color: "#00b3a4" }} />
+                Java
+              </h1>
+              <h1 className="flex items-center gap-2">
+                <ArrowRightIcon sx={{ color: "#00b3a4" }} />
+                JavaScript
+              </h1>
+              <h1 className="flex items-center gap-2">
+                <ArrowRightIcon sx={{ color: "#00b3a4" }} />
+                Python
+              </h1>
+            </div>
 
-          {/* Column 3 */}
-          <div>
-            <h1 className="flex items-center gap-2">
-              <ArrowRightIcon sx={{ color: "#00b3a4" }} />
-              C++
-            </h1>
-            <h1 className="flex items-center gap-2">
-              <ArrowRightIcon sx={{ color: "#00b3a4" }} />
-              Java
-            </h1>
-            <h1 className="flex items-center gap-2">
-              <ArrowRightIcon sx={{ color: "#00b3a4" }} />
-              JavaScript
-            </h1>
-            <h1 className="flex items-center gap-2">
-              <ArrowRightIcon sx={{ color: "#00b3a4" }} />
-              Python
-            </h1>
-          </div>
-
-          {/* Column 4 */}
-          <div>
-            <h1 className="flex items-center gap-2">
-              <ArrowRightIcon sx={{ color: "#00b3a4" }} />
-              Git
-            </h1>
-            <h1 className="flex items-center gap-2">
-              <ArrowRightIcon sx={{ color: "#00b3a4" }} />
-              Figma
-            </h1>
+            <div>
+              <h1 className="flex items-center gap-2">
+                <ArrowRightIcon sx={{ color: "#00b3a4" }} />
+                Git
+              </h1>
+              <h1 className="flex items-center gap-2">
+                <ArrowRightIcon sx={{ color: "#00b3a4" }} />
+                Figma
+              </h1>
+            </div>
           </div>
         </div>
       </div>

@@ -19,9 +19,9 @@ const About = () => {
       <div className="flex flex-col gap-14 justify-center items-center">
         <div
           data-aos="fade-bottom"
-          className="flex flex-col items-center justify-center gap-3 text-lighter_gray  w-11/12 sm:w-3/4"
+          className="flex flex-col items-center justify-center gap-3 text-lighter_gray  w-full "
         >
-          <div className="flex flex-col md:flex-row gap-5 ">
+          <div className="flex flex-col lg:flex-row gap-5 ">
             <p className=" border border-teal py-10 px-5 rounded-lg text-justify shadowlg">
               Hi, I’m Ashenafi Mekit, a passionate and detail-oriented
               full-stack developer with a strong focus on crafting intuitive
