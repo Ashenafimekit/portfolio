@@ -34,14 +34,13 @@ const Hero = () => {
               />
             </span>
             <span className="text-text_color text-3xl sm:text-4xl md:text-6xl font-black block">
-              a Frontend Developer
+              a Full-Stack Developer
             </span>
           </h1>
           <h2 className="text-sm xs:text-lg text-lighter_gray text-justify">
-            Building dynamic, user-friendly frontend interfaces with a strong
-            focus on modern design and seamless user experiences. With some
-            knowledge of backend technologies, I deliver scalable web solutions.
-            Let’s turn your vision into reality with clean code and cutting-edge
+            Building dynamic, user-friendly frontend interfaces and robust
+            backend systems to deliver seamless and scalable web solutions.
+            Let’s turn your vision into reality with clean code and modern
             design.
           </h2>
         </div>
