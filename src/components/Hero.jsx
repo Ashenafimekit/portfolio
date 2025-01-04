@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { motion } from "motion/react";
 import AOS from "aos";
-import { Link } from "react-scroll";
 import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
@@ -12,6 +11,12 @@ const Hero = () => {
       offset: 100,
     });
   }, []);
+
+  const myResume = () => {
+    window.open(
+      "https://drive.google.com/file/d/1X6qM_jfgbl6PIp9cooUoDN4SQMMgCsdw/view?usp=drive_link"
+    );
+  };
   return (
     <div className=" flex flex-col items-center gap-0 sm:gap-8 w-full">
       <div className="flex flex-row items-center justify-center gap-10 w-full px-10">
@@ -46,14 +51,13 @@ const Hero = () => {
         </div>
       </div>
       <div className="">
-        <Link to="contact" smooth={true} duration={500}>
-          <motion.button
-            whileHover={{ scale: "1.01" }}
-            className="border border-teal py-3 px-6 text-teal hover:border-2 text-lg rounded-md shadow-md"
-          >
-            Get In Touch
-          </motion.button>
-        </Link>
+        <motion.button
+          whileHover={{ scale: "1.01" }}
+          className="border border-teal py-2 px-6 text-teal hover:border-2 text-xl rounded-md shadow-md"
+          onClick={() => myResume()}
+        >
+          Resume
+        </motion.button>
       </div>
     </div>
   );
