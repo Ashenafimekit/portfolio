@@ -14,7 +14,7 @@ const Hero = () => {
 
   const myResume = () => {
     window.open(
-      "https://drive.google.com/file/d/1X6qM_jfgbl6PIp9cooUoDN4SQMMgCsdw/view?usp=drive_link"
+      "https://drive.google.com/file/d/1X6qM_jfgbl6PIp9cooUoDN4SQMMgCsdw/view?usp=sharing"
     );
   };
   return (
