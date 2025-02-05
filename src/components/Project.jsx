@@ -31,7 +31,7 @@ const projects = [
       "Hotel booking, information on available services, and an integrated bed booking management system for efficient reservation handling.",
     techStack: ["React", "Express", "MongoDB", "Tailwind"],
     githubLink: "https://github.com/Ashenafimekit/AAH",
-    liveLink: "#",
+    liveLink: "https://arab-ali-hotel.vercel.app/",
   },
   {
     imgSrc: VMS,
