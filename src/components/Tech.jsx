@@ -34,7 +34,7 @@ const Tech = () => {
             <div>
               <h1 className="flex items-center gap-2">
                 <ArrowRightIcon sx={{ color: "#00b3a4" }} />
-                WordPress
+                Next js
               </h1>
               <h1 className="flex items-center gap-2">
                 <ArrowRightIcon sx={{ color: "#00b3a4" }} />
@@ -57,7 +57,7 @@ const Tech = () => {
               </h1>
               <h1 className="flex items-center gap-2">
                 <ArrowRightIcon sx={{ color: "#00b3a4" }} />
-                MongoDB
+                Nest js
               </h1>
             </div>
           </div>
@@ -66,19 +66,15 @@ const Tech = () => {
             <div>
               <h1 className="flex items-center gap-2">
                 <ArrowRightIcon sx={{ color: "#00b3a4" }} />
-                C++
+                MongoDB
               </h1>
               <h1 className="flex items-center gap-2">
                 <ArrowRightIcon sx={{ color: "#00b3a4" }} />
-                Java
+                Postgres
               </h1>
               <h1 className="flex items-center gap-2">
                 <ArrowRightIcon sx={{ color: "#00b3a4" }} />
-                JavaScript
-              </h1>
-              <h1 className="flex items-center gap-2">
-                <ArrowRightIcon sx={{ color: "#00b3a4" }} />
-                Python
+                Mysql
               </h1>
             </div>
 
@@ -86,6 +82,10 @@ const Tech = () => {
               <h1 className="flex items-center gap-2">
                 <ArrowRightIcon sx={{ color: "#00b3a4" }} />
                 Git
+              </h1>
+              <h1 className="flex items-center gap-2">
+                <ArrowRightIcon sx={{ color: "#00b3a4" }} />
+                postman
               </h1>
               <h1 className="flex items-center gap-2">
                 <ArrowRightIcon sx={{ color: "#00b3a4" }} />

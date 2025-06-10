@@ -31,10 +31,11 @@ const About = () => {
             </p>
             <p className=" border border-teal py-10 px-5 rounded-lg text-justify shadow-lg">
               I specialize in using modern tools and technologies like
-              <span className="text-teal">React</span> ,
+              <span className="text-teal"> Nextjs</span> ,
+              <span className="text-teal"> React</span> ,
               <span className="text-teal">Tailwind CSS</span>,
-              <span className="text-teal">Node.js</span> , and
-              <span className="text-teal"> MongoDB</span> to create seamless
+              <span className="text-teal"> Node.js, Express js, Nest js</span> , and
+              <span className="text-teal"> Postgres, MongoDB</span> to create seamless
               user experiences. My goal is to write clean, maintainable code and
               deliver projects that add real value.
             </p>

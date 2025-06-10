@@ -11,7 +11,8 @@ const projects = [
   {
     imgSrc: TravelEase,
     title: "TravelEase – Bus Ticket Management System",
-    description: "A complete system for managing bus routes, bookings, and user details.",
+    description:
+      "A complete system for managing bus routes, bookings, and user details.",
     techStack: ["React", "Express", "MongoDB", "Tailwind"],
     githubLink: "https://github.com/Ashenafimekit/TravelEasy",
     liveLink: "https://travel-easy-lime.vercel.app/",
@@ -19,7 +20,8 @@ const projects = [
   {
     imgSrc: LensCraft,
     title: "Lens Craft – Photography Website",
-    description: "A modern and visually appealing portfolio website for a photography agency.",
+    description:
+      "A modern and visually appealing portfolio website for a photography agency.",
     techStack: ["React", "Tailwind"],
     githubLink: "https://github.com/Ashenafimekit/LensCraft",
     liveLink: "https://lens-craft-ruby.vercel.app/",
